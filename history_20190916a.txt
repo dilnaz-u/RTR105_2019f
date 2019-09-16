@@ -1,91 +1,183 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  pwd
-    4  ls
-    5  ls -l
-    6  whoami
-    7  man ls
-    8  ls -a
-    9  ls
+    3  history
+    4  exit
+    5  pwd
+    6  ls
+    7  ls -l
+    8  whoami
+    9  man ls
    10  ls -a
    11  ls
    12  ls -a
    13  ls
-   14  ls -l
-   15  ls -a
-   16  sh
-   17  ls -l -a
-   18  ls -a -l
-   19  ls -al
-   20  pwd
-   21  cd .
+   14  ls -a
+   15  ls
+   16  ls -l
+   17  ls -a
+   18  sh
+   19  ls -l -a
+   20  ls -a -l
+   21  ls -al
    22  pwd
-   23  cd ..
+   23  cd .
    24  pwd
-   25  ls -la
-   26  ls -l
-   27  cd .
-   28  pwd
-   29  cd ..
-   30  ls -l
-   31  ls -la
-   32  pwd
-   33  cd .
+   25  cd ..
+   26  pwd
+   27  ls -la
+   28  ls -l
+   29  cd .
+   30  pwd
+   31  cd ..
+   32  ls -l
+   33  ls -la
    34  pwd
-   35  cd ..
+   35  cd .
    36  pwd
-   37  ls -l
-   38  cd ~
-   39  cd /
-   40  pwd
-   41  cd home/
-   42  cd user/
-   43  cd /
-   44  cd ./home/
-   45  cd ./user/
-   46  cd /home/user/
-   47  cd /
-   48  cd
-   49  mkdir MyDirectory
-   50  ls
+   37  cd ..
+   38  pwd
+   39  ls -l
+   40  cd ~
+   41  cd /
+   42  pwd
+   43  cd home/
+   44  cd user/
+   45  cd /
+   46  cd ./home/
+   47  cd ./user/
+   48  cd /home/user/
+   49  cd /
+   50  cd
    51  mkdir MyDirectory
-   52  ls -l
-   53  cd MyDirectory/
-   54  ls
-   55  ls -l
-   56  ls -al
-   57  cd ..
-   58  pwd
-   59  cd MyDirectory/
+   52  ls
+   53  mkdir MyDirectory
+   54  ls -l
+   55  cd MyDirectory/
+   56  ls
+   57  ls -l
+   58  ls -al
+   59  cd ..
    60  pwd
-   61  cd ..
+   61  cd MyDirectory/
    62  pwd
-   63  rmdir MyDirectryy
-   64  rmdir MyDirectory/
-   65  ls
-   66  cd /
-   67  mkdir MyDirectory
-   68  cd
-   69  ls -l /
-   70  cd /home
-   71  mkdir MyDirectory
-   72  ls -l /home
-   73  ls -l /home/
-   74  cd /
-   75  ls -l home/
+   63  cd ..
+   64  pwd
+   65  rmdir MyDirectryy
+   66  rmdir MyDirectory/
+   67  ls
+   68  cd /
+   69  mkdir MyDirectory
+   70  cd
+   71  ls -l /
+   72  cd /home
+   73  mkdir MyDirectory
+   74  ls -l /home
+   75  ls -l /home/
    76  cd /
-   77  ls -l
-   78  cd home/
+   77  ls -l home/
+   78  cd /
    79  ls -l
-   80  history
-   81  history > history_20190916a.txt
-   82  cd
+   80  cd home/
+   81  ls -l
+   82  history
    83  history > history_20190916a.txt
-   84  ls
-   85  ls -l
-   86  cat history_20190916a.txt 
-   87  ls
+   84  cd
+   85  history > history_20190916a.txt
+   86  ls
+   87  ls -l
    88  cat history_20190916a.txt 
-   89  pwd
-   90  history
-   91  history > history_20190916a.txt
+   89  ls
+   90  cat history_20190916a.txt 
+   91  pwd
+   92  history
+   93  history > history_20190916a.txt
+   94  ls
+   95  cat history_20190916a.txt
+   96  man ls
+   97  cd /
+   98  su mkdir MyDirectory
+   99  su sc mkdir MyDirectory
+  100  pwd
+  101  mkdir MyDirectory
+  102  su sc mkdir MyDirectory
+  103  su user mkdir MyDirectory
+  104  exit
+  105  history
+  106  exit
+  107  cd
+  108  pwd
+  109  ls 
+  110  touch aaa.txt
+  111  ls -l
+  112  ls -l aaa.txt 
+  113  cat aaa.txt 
+  114  man touch
+  115  ls -l
+  116  touch -t 201909171000 aaa.txt
+  117  ls -l
+  118  echo Hello World!
+  119  echo Hello World! > bbb.txt
+  120  ls -l
+  121  ls -l bbb.txt 
+  122  cat bbb.txt 
+  123  echo Hello World again! > bbb.txt
+  124  ls -l bbb.txt 
+  125  cat bbb.txt 
+  126  echo Hello World! > bbb.txt
+  127  cat bbb.txt 
+  128  echo Hello World again! >> bbb.txt
+  129  cat bbb.txt 
+  130  ls -l bbb.txt 
+  131  cat bbb.txt 
+  132  stat bbb.txt 
+  133  echo Hello\tWorld!
+  134  echo -c Hello\tWorld!
+  135  man echo
+  136  echo -e Hello\tWorld!
+  137  echo -e "Hello\tWorld!"
+  138  echo -e "Hello\vWorld!"
+  139  echo -e "Hello\vWorld!" > ccc.txt
+  140  cat ccc.txt 
+  141  ls -l ccc.txt 
+  142  cat ccc.txt > ddd.txt
+  143  ls -l
+  144  ls -l ccc.txt 
+  145  ls -l
+  146  cat /bin/ls
+  147  ls -l /bin/ls
+  148  cat /bin/ls > eee.txt
+  149  ls -l
+  150  rm aaa.txt 
+  151  ls -l
+  152  ls -l *.txt
+  153  rm *.txt
+  154  ls -l
+  155  touch m1u.txt
+  156  touch r1i.bxt
+  157  ls -l
+  158  rm *1*.*xt
+  159  ls -l
+  160  echo -e "Hello\vWorld!" > ccc.txt
+  161  ls -l
+  162  cp ccc.txt ccc1.txt
+  163  ls -l
+  164  cd  /
+  165  mv ~/ccc.txt ~/Music/dd.tx
+  166  cd
+  167  ls -
+  168  ls -l
+  169  ls -l Music/
+  170  cd Music/
+  171  cd ..
+  172  pwd
+  173  cat Music/dd.tx 
+  174  ls -l Music/dd.tx 
+  175  ls -l /home/user/Music/dd.tx 
+  176  pwd
+  177  rm Music/*.*
+  178  ls -l Music/
+  179  ls -l
+  180  mv ccc1.txt ddd1.txt
+  181  ls -l
+  182  history 
+  183  history > history_20190916a.txt

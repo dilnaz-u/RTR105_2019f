@@ -181,3 +181,26 @@
   181  ls -l
   182  history 
   183  history > history_20190916a.txt
+  184* 
+  185  nano MyFirstScript.sh
+  186  ls -l
+  187  ls
+  188  ./MyFirstScript.sh
+  189  ./MyFirstScriptt.sh
+  190  chmod 740  MyFirstScriptt.sh
+  191  chmod 740  MyFirstScript.sh
+  192  ls -l
+  193  MyFirstScripts.sh
+  194  ./MyFirstScripts.sh
+  195  ./MyFirstScript.sh
+  196  man rmdir
+  197  man rm
+  198  ls -l
+  199  cat log.txt 
+  200  nano MyFirstScript.sh
+  201  ls -l
+  202  ./MyFirstScript.sh
+  203  ls -l
+  204  nano MyFirstScript.sh
+  205  history 
+  206  history > history_20190916a.txt 

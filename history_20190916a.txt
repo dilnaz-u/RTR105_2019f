@@ -1,0 +1,91 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  ls -l
+    6  whoami
+    7  man ls
+    8  ls -a
+    9  ls
+   10  ls -a
+   11  ls
+   12  ls -a
+   13  ls
+   14  ls -l
+   15  ls -a
+   16  sh
+   17  ls -l -a
+   18  ls -a -l
+   19  ls -al
+   20  pwd
+   21  cd .
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  ls -la
+   26  ls -l
+   27  cd .
+   28  pwd
+   29  cd ..
+   30  ls -l
+   31  ls -la
+   32  pwd
+   33  cd .
+   34  pwd
+   35  cd ..
+   36  pwd
+   37  ls -l
+   38  cd ~
+   39  cd /
+   40  pwd
+   41  cd home/
+   42  cd user/
+   43  cd /
+   44  cd ./home/
+   45  cd ./user/
+   46  cd /home/user/
+   47  cd /
+   48  cd
+   49  mkdir MyDirectory
+   50  ls
+   51  mkdir MyDirectory
+   52  ls -l
+   53  cd MyDirectory/
+   54  ls
+   55  ls -l
+   56  ls -al
+   57  cd ..
+   58  pwd
+   59  cd MyDirectory/
+   60  pwd
+   61  cd ..
+   62  pwd
+   63  rmdir MyDirectryy
+   64  rmdir MyDirectory/
+   65  ls
+   66  cd /
+   67  mkdir MyDirectory
+   68  cd
+   69  ls -l /
+   70  cd /home
+   71  mkdir MyDirectory
+   72  ls -l /home
+   73  ls -l /home/
+   74  cd /
+   75  ls -l home/
+   76  cd /
+   77  ls -l
+   78  cd home/
+   79  ls -l
+   80  history
+   81  history > history_20190916a.txt
+   82  cd
+   83  history > history_20190916a.txt
+   84  ls
+   85  ls -l
+   86  cat history_20190916a.txt 
+   87  ls
+   88  cat history_20190916a.txt 
+   89  pwd
+   90  history
+   91  history > history_20190916a.txt

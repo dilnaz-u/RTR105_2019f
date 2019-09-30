@@ -1,0 +1,112 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  git clone https://github.com/tatusmatrix/RTR105_2019f
+    5  cd RTR105_2019f/
+    6  ls -l
+    7  history
+    8  cd ..
+    9  ls -l
+   10  cd RTR105_2019f/
+   11  pwd
+   12  ls -l
+   13  cd works/
+   14  pwd
+   15  ls -l
+   16  nano elementary.c 
+   17  ls -l
+   18  cat elementary.c 
+   19  gcc elementary.c 
+   20  ls -l
+   21  gcc elementary.c -o prg1
+   22  ls -l
+   23  prg1
+   24  echo $PATH
+   25  prg1
+   26  ls -l
+   27  pwd
+   28  ls -l
+   29  ./prg1
+   30  ls -l
+   31  rm a.out 
+   32  rm prg1 
+   33  ls -l
+   34  cat elementary.c 
+   35  gcc elementary.c 
+   36  ls -l
+   37  cat a.out 
+   38  cat elementary.c 
+   39  gcc elementary.c 
+   40  cat a.out 
+   41  ls -l
+   42  gcc elementary.c 
+   43  ls -l
+   44  gcc elementary.c -o prg1
+   45  ls -l
+   46  prg1
+   47  echo $PATH
+   48  ./prg1
+   49  prg1
+   50  ./prg1
+   51  pwd
+   52  /home/user/RTR105_2019f/works/prg1 
+   53  cd ..
+   54  ls -l
+   55  ./works/prg1 
+   56  cd works/
+   57  pwd
+   58  ls -l
+   59  cat elementary.c 
+   60  ./a.out 
+   61  cp elementary.c hello.c
+   62  ls -l
+   63  nano hello.c 
+   64  ls -l
+   65  cat hello.c 
+   66  gcc hello.c 
+   67  cat hello.c 
+   68  gcc hello.c 
+   69  ls -l
+   70  ./a.out 
+   71  gcc hello.c -o prg2
+   72  ls -l
+   73  gcc hello.c 
+   74  ls -l
+   75  nano hello.c 
+   76  cat hello.c 
+   77  gcc hello.c -o prg2
+   78  ls -l
+   79  ./prg2
+   80  ./prg1
+   81  ./prg2
+   82  cat hello.c 
+   83  ./prg2
+   84  nano hello.c 
+   85  cat hello.c 
+   86  gcc hello.c -o prg3
+   87  ls -l
+   88  nano hello.c 
+   89  cat hello.c 
+   90  gcc hello.c -o prg3
+   91  ls -l
+   92  ./prg3
+   93  cat hello.c 
+   94  ./prg3
+   95  nano hello.c 
+   96  cat hello.c 
+   97  gcc hello.c -o prg4
+   98  ./prg4
+   99  cat hello.c 
+  100  gcc hello.c -o prg4
+  101  ./prg4
+  102  ls -l
+  103  rm prg1
+  104  ls -l
+  105  ls prg*
+  106  rm prg*
+  107  ls -l
+  108  rm a.out 
+  109  ls -l
+  110  cd ..
+  111  ls -l
+  112  history > history_20190930a.txt

@@ -1,0 +1,54 @@
+#include<stdio.h>
+
+void main(){
+ int a=7, b=2;
+
+ printf("%d + %d = %d (sizeof \"+\" %lu byte(s))\n",a,b,a+b,sizeof(a+b));
+ printf("%d - %d = %d (sizeof \"-\" %lu byte(s))\n",a,b,a-b,sizeof(a-b));
+ printf("%d * %d = %d (sizeof \"*\" %lu byte(s))\n",a,b,a*b,sizeof(a*b));
+ printf("%d / %d = %d (sizeof \"/\" %lu byte(s))\n",a,b,a/b,sizeof(a/b));
+
+ printf("%d / %d = %.1f (result of using a/b even with f format)\n",a,b,(float)(a/b));
+ printf("%d / %d = %.1f (result of using (float)a/b)\n",a,b,(float)a/b);
+ }
+7 + 2 = 9 (sizeof "+" 4 byte(s))
+7 - 2 = 5 (sizeof "-" 4 byte(s))
+7 * 2 = 14 (sizeof "*" 4 byte(s))
+7 / 2 = 3 (sizeof "/" 4 byte(s))
+7 / 2 = 3.0 (result of using a/b even with f format)
+7 / 2 = 3.5 (result of using (float)a/b)
+#include<stdio.h>
+
+void main(){
+ int a=7, b=2;
+
+ printf("%d + %d = %d (sizeof \"+\" %lu byte(s))\n",a,b,a+b,sizeof(a+b));
+ printf("%d - %d = %d (sizeof \"-\" %lu byte(s))\n",a,b,a-b,sizeof(a-b));
+ printf("%d * %d = %d (sizeof \"*\" %lu byte(s))\n",a,b,a*b,sizeof(a*b));
+ printf("%d / %d = %d (sizeof \"/\" %lu byte(s))\n",a,b,a/b,sizeof(a/b));
+
+ printf("%d / %d = %.1f (result of using a/b even with f format)\n",a,b,(float)(a/b));
+ printf("%d / %d = %.1f (result of using (float)a/b)\n",a,b,(float)a/b);
+ }
+#include<stdio.h>
+
+void main(){
+ int a=7, b=2;
+
+ printf("%d + %d = %d (sizeof \"+\" %lu byte(s))\n",a,b,a+b,sizeof(a+b));
+ printf("%d - %d = %d (sizeof \"-\" %lu byte(s))\n",a,b,a-b,sizeof(a-b));
+ printf("%d * %d = %d (sizeof \"*\" %lu byte(s))\n",a,b,a*b,sizeof(a*b));
+ printf("%d / %d = %d (sizeof \"/\" %lu byte(s))\n",a,b,a/b,sizeof(a/b));
+
+ printf("%d / %d = %.1f (result of using a/b even with f format)\n",a,b,(float)(a/b));
+ printf("%d / %d = %.1f (result of using (float)a/b)\n",a,b,(float)a/b);
+
+ printf("%d %c %d = %d (sizeof \"%c\" %lu byte(s))\n",a,'%',b,a%b,'%',sizeof(a%b));
+ }
+7 + 2 = 9 (sizeof "+" 4 byte(s))
+7 - 2 = 5 (sizeof "-" 4 byte(s))
+7 * 2 = 14 (sizeof "*" 4 byte(s))
+7 / 2 = 3 (sizeof "/" 4 byte(s))
+7 / 2 = 3.0 (result of using a/b even with f format)
+7 / 2 = 3.5 (result of using (float)a/b)
+7 % 2 = 1 (sizeof "%" 4 byte(s))

@@ -1,0 +1,20 @@
+0. We are working in our repositories inside directory - works
+
+1. Get familiar with Conditional operator:
+create directory - conditions
+inside conditions directory obligatory try examples from:
+https://github.com/tatusmatrix/RTR105_2019/tree/master/darbiM01/conditions
+also You can try, for example:
+https://www.tutorialspoint.com/cprogramming/c_decision_making.htm
+
+2. Get familiar with Loop operators:
+create directory - loops and subdirectories - for and while
+inside loops/while directory obligatory try examples from:
+https://github.com/tatusmatrix/RTR105_2019/tree/master/darbiM01/loops/while
+inside loops/for directory obligatory try examples from:
+https://github.com/tatusmatrix/RTR105_2019/tree/master/darbiM01/loops/for
+also You can try, for example:
+https://www.tutorialspoint.com/cprogramming/c_loops.htm
+
+3. At 13:30 I will start to ask everyone:
+how codes with conditions and loops are working?

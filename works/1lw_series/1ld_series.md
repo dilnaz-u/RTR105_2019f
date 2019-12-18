@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratory work Nr.1. - Teilor series - report
+# Laboratory work Nr.1. - Taylor series - report
 
 ## Theory
 Theory  
